@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Recipe Sharing</h1>
+            <button id="addRecipeBtn" class="btn">Add Recipe</button>
+        </header>
+        <main>
+            <section id="recipeList">
+                <!-- Recipe cards will be dynamically added here -->
+            </section>
+        </main>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Add New Recipe</h2>
+                <form id="recipeForm">
+                    <label for="recipeName">Recipe Name:</label>
+                    <input type="text" id="recipeName" required>
+                    
+                    <label for="recipeIngredients">Ingredients:</label>
+                    <textarea id="recipeIngredients" required></textarea>
+                    
+                    <label for="recipeInstructions">Instructions:</label>
+                    <textarea id="recipeInstructions" required></textarea>
+                    
+                    <button type="submit" class="btn">Add Recipe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
