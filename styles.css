@@ -1,8 +1,8 @@
 :root {
     --bg-color: #1a1a2e;
     --card-bg: #16213e;
-    --text-color: #e94560;
-    --text-secondary: #0f3460;
+    --text-color: #fff;
+    --text-secondary: #fff;
     /* --accent-color: #e94560; */
 }
 
@@ -30,6 +30,9 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+    background: #000;
+    border-radius: 1rem;
+    color: #fff;
 }
 
 h1 {
@@ -38,7 +41,8 @@ h1 {
 }
 
 .btn {
-    background-color: var(--accent-color);
+    /* background-color: var(--accent-color); */
+    background-color: #fff;
     color: var(--bg-color);
     border: none;
     padding: 10px 20px;
@@ -58,7 +62,8 @@ h1 {
 }
 
 .recipe-card {
-    background-color: var(--card-bg);
+    /* background-color: var(--card-bg); */
+    background-color: #fff;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -91,7 +96,8 @@ h1 {
 }
 
 .modal-content {
-    background-color: var(--card-bg);
+    /* background-color: var(--card-bg); */
+    background-color: #000;
     margin: 10% auto;
     padding: 20px;
     border-radius: 10px;
