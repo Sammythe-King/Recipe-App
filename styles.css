@@ -1,9 +1,9 @@
 :root {
     --bg-color: #1a1a2e;
     --card-bg: #16213e;
-    --text-color: #e94560;
+    --text-color: #fff;
     --text-secondary: #0f3460;
-    --accent-color: #e94560;
+    --accent-color: #fff;
 }
 
 * {
@@ -30,6 +30,8 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
+    border-radius: 1rem;
+    
 }
 
 h1 {
